@@ -9,7 +9,6 @@ def line(array)
     array.each_with_index(1) do |name, index|
       katz_deli.push ("#{index}. #{name}")
     end
-    puts "The line is currently: #{katz_deli.join(" ")}
-
+    puts "The line is currently: #{katz_deli.join(" ")}"
 end
 end
