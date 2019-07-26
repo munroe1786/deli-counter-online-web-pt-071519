@@ -11,3 +11,4 @@ def line(array)
     puts customer_list
 end
 end
+end
