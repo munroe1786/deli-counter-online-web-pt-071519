@@ -14,7 +14,5 @@ end
 end
 
 def take_a_number(array, string)
-  katz_deli = [ ]
-  if array.length == 0
-    array.each_with_index do |name, index|
-      katz_deli
+  array.push(name)
+  puts "Welcome "
