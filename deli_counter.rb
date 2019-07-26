@@ -9,7 +9,7 @@ def line(array)
     array.each_with_index(1) do |name, index|
       katz_deli.push ("#{index}. #{name}")
     end
-    puts array << "The line is currently: #{index+1}.#{name}."
+    puts "The line is currently: #{index+1}.#{name}."
     customer_list = array.join(" ")
 end
 puts customer_list
