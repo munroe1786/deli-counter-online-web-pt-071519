@@ -7,7 +7,8 @@ def line(array)
     puts "The line is currently empty."
   else 
     array.each_with_index do |name, index|
-    puts customer_list << "The line is currently: #{index+1}.#{name}."
+    puts array << "The line is currently: #{index+1}.#{name}."
+    
 end
 puts customer_list
 end
