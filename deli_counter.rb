@@ -3,11 +3,11 @@
 
 def line(array)
   customer_list = array.join(" ")
-  if customer_list.length == 0
+  if array.length == 0
     puts "The line is currently empty."
   else 
     array.each_with_index do |name, index|
-    customer_list << "The line is currently: #{index+1}.#{name}."
+    array << "The line is currently: #{index+1}.#{name}."
     puts customer_list
 end
 end
